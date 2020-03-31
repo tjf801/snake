@@ -4,7 +4,7 @@ class Snake {
 		this.headY = y;
 		this.segments = [];
 		this.direction = "STOP";
-		this.addNewSegments = 3;
+		this.addNewSegments = 0;
 	}
 	
 	draw() {
